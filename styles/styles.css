@@ -96,7 +96,7 @@
     font-size: 48px;
     color: #F8F5EC;
     z-index: 40;
-    font-weight: 250;
+    font-weight: 500;
 }
 
 .bannerSTitle{
@@ -329,8 +329,6 @@
     align-items: center;
     max-width: 70%;
     margin-top: 30px;
-    filter: invert()
-
 }
 
 .iconsInfoLeft{
@@ -339,6 +337,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
+    filter: invert()
 }
 
 .iconsInfoRight{
@@ -347,6 +346,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
+    filter: invert()
 }
 
 .contactElementFooter{
