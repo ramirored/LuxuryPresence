@@ -337,7 +337,6 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
-    filter: invert()
 }
 
 .iconsInfoRight{
@@ -346,7 +345,6 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
-    filter: invert()
 }
 
 .contactElementFooter{
@@ -357,6 +355,7 @@
 .contactIcon{
     width: 42px;
     margin-right: 30px;
+    filter: invert();
 }
 
 .contactText{
@@ -364,6 +363,7 @@
     line-height: 25px;
     font-weight: 500;
     width: 300px;
+    color: #FFFFFF;
 }
 
 .right{
