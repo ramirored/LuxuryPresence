@@ -1,0 +1,456 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*-------------------------------------- NAV------------------------------------*/
+
+.navBar{
+    position: fixed;
+    top: 0px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 800;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(1px);
+}
+
+.navBarContainer{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.listaMenu{
+    list-style: none;
+}
+
+.menu{
+    color: #F8F5EC;
+}
+
+.logoText{
+    color: #F8F5EC;
+    font-family: 'oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.listaMenu{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.elemMenu{
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(241, 241, 241, 0.703);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.elemMenu:hover{
+    color: #FFFFFF;
+}
+
+/*--------------------------------------BANNER----------------------------------*/
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.videobanner{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+}
+
+.bannerInfo{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerTitle{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    color: #F8F5EC;
+    z-index: 40;
+    font-weight: 250;
+}
+
+.bannerSTitle{
+    margin-top: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 18px;
+    color: #F8F5EC;
+    z-index: 45;
+}
+
+.overlayBanner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*--------------------------CONTACT ELEMENT------------------------*/
+
+.contactElement{
+    width: 100%;
+    height: 250px;
+    background-color: #000000;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textContact{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.buttonContact{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #FFFFFF;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.buttonContact:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/*-----------------------WYSH----------------------------*/
+
+.WYSH{
+    width: 100%;
+    height: 600px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/banner4.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+.WYSHOverlay{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255,255,255,0.70);
+    backdrop-filter: blur(3px);
+    z-index: 42;
+}
+
+.WYSHContainer{
+    max-width: 70%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 43;
+}
+
+.WYSHTitle{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+.WYSHP{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*-------------------------------imageAndTextElement ------------------------------*/
+
+.imageAndTextElement{
+    height: 650px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.IandTElementImage{
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.IandTElementInfo{
+    font-family: 'Montserrat', sans-serif;  
+    width: 33%;
+    height: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.IandTElementH{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.IandTElementP{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.imageAndTextElementBT{
+    height: 650px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+}
+
+.IandTElementInfoBT{
+    font-family: 'Montserrat', sans-serif;  
+    width: 33%;
+    height: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/*---------------------------WWU--------------------------*/
+
+.WWU{
+    height: 600px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/assets/banner5.jpg");
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.WWUContainer{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 500;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.WWUOverlay{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 42;
+    backdrop-filter: blur(3px);
+}
+
+.WWUHeader{
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.WWUDescription{
+    margin-bottom: 60px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/*------------------------- CONTACT INFO --------------------------*/
+
+.contactInfo{
+    height: 600px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #162D54
+}
+
+.contactInfoContainer{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* SECCION PRIMERA FOOTER */
+.iconsInfo{
+    width: 100%;
+    height: 40%;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    max-width: 70%;
+    margin-top: 30px;
+}
+
+.iconsInfoLeft{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.iconsInfoRight{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contactElementFooter{
+    display: inline-flex;
+    align-items: center;
+}
+
+.contactIcon{
+    width: 42px;
+    margin-right: 30px;
+}
+
+.contactText{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    font-weight: 500;
+    width: 300px;
+}
+
+.right{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+/* SECCION MEDIO FOOTER*/
+
+.disclaimerInfo{
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    color: #FFFFFF;
+    justify-content: flex-end;
+    align-items: flex-start;
+    max-width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.disclaimerContainer{
+    width: 80%;
+    margin-left: 10px;
+}
+
+.disclaimerText{
+    text-align: justify;
+}
+
+.logoFooter{
+    width: 150px;
+    height: 100px;
+    margin-right: 70px;
+}
+
+/* ULTIMA SECCION FOOTER*/
+
+.poweredInfo{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    max-width: 70%;
+    height: 8%;;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(157, 108, 56, 1);
+}
+
+.containerPoweredInfo{
+    width: 270px;
+}
+
+#link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#link:hover{
+    text-decoration: underline;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+
+#iconitos{
+    text-align: right;
+}
+
+.socialMediaButton{
+    border-radius: 50px;
+    width: 47px;
+    height: 47px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #162D54;
+    border: 2px solid rgba(157, 108, 56, 1);
+    transition: 0.5s;
+}
+
+.socialMediaButton:hover{
+    background-color: rgba(157, 108, 56, 1);
+}
+
+.socialMediaIcon{
+    width: 22px;
+    filter: invert();
+}
