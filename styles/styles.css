@@ -40,7 +40,7 @@
 
 .logoText{
     color: #F8F5EC;
-    font-family: 'oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 300;
     text-decoration: none;
@@ -92,7 +92,7 @@
 }
 
 .bannerTitle{
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     color: #F8F5EC;
     z-index: 40;
@@ -101,7 +101,7 @@
 
 .bannerSTitle{
     margin-top: 30px;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #F8F5EC;
     z-index: 45;
@@ -329,6 +329,8 @@
     align-items: center;
     max-width: 70%;
     margin-top: 30px;
+    filter: invert()
+
 }
 
 .iconsInfoLeft{
